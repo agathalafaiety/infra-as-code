@@ -18,7 +18,6 @@ resource "aws_s3_bucket" "static_site_bucket" {
     Name        = "Static Site Bucket"
     Environment = "Production"
   }
-
 }
 
 resource "aws_s3_bucket_public_access_block" "static_site_bucket" {
